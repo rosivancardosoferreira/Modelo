@@ -1,0 +1,41 @@
+.u-title-simple {
+    color: var(--red);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.u-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.u-input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid var(--main);
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.u-input:focus {
+    outline: 1px solid var(--main);
+}
+
+.u-btn-primary {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid var(--main);
+    font-size: 1rem;
+    background-color: var(--steel);
+    color: var(--white);
+    border: none;
+    transition: all 0.5s;
+}
+
+
+.u-btn-primary:hover {
+    background-color: var(--steelDark);
+}
